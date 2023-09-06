@@ -1,0 +1,50 @@
+* {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:rgb(151, 58, 86);
+}
+
+.container h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color:rgb(120, 33, 59);
+    padding: 20px;
+}
+
+.container2 input,
+.container2 select,
+.container2 textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+
+.container2 .register {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    /* color: rgb(44, 44, 44); */
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-style: bold;
+}
